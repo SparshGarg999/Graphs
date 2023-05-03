@@ -1,3 +1,10 @@
+https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+// this link is for 8 directions 
+// for 4 directions do
+/*
+int dx[ ] = {-1,0,1,0};
+int dy[]  = {0,1,0,-1};
+ */
 //Find the number of islands
 //approach -1 dfs
     void dfs(int row,int col,vector<vector<char>>&grid,vector<vector<int>>&vis,int n,int m){
